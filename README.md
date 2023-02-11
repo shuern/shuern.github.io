@@ -1,2 +1,2 @@
-# README
-official website for github shuern https://shuern.github.io/
+# shuern.github.io Website
+This is the repository for the main shuern.github.io website.
