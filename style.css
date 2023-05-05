@@ -1,0 +1,82 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav {
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+form {
+	margin-top: 20px;
+}
+
+label, input, textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #444;
+}
